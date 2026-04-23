@@ -1,0 +1,1320 @@
+{
+  "meta": {
+    "generated_at": "2026-04-24 07:59:25"
+  },
+  "limitup_guide_text": "【历史总览】当前显示的是标准资金口径模型：先挂Top3，但最多成交2只\n1. 候选范围：今天首板的正式备选池，只保留 shape_score>=7；明天盘中观察前3名候选，按触发时间先后执行，但单日最多成交2只。\n2. 买入规则：今晚先选股，明天才盯盘；若明天不封2板，或封板后始终不给开板再回封机会，就不买。\n3. 卖出规则：T+1 统一在 10:00 卖出，不再区分是否继续封更高板。\n4. 资金表现：累计收益 1144.58% | 期末资金 1,244,582.09 | 最大回撤 -11.31% | 胜率 57.61% | 盈亏比 1.46 | 交易笔数 1248",
+  "tables": {
+    "signals": [],
+    "pending_orders": [],
+    "positions_actual": [
+      {
+        "code": "002323",
+        "name": "",
+        "sleeve": "reversal",
+        "entry_date_model": "",
+        "entry_price_model": "",
+        "entry_price_actual": 2.29,
+        "shares_actual": 800.0,
+        "cost_actual": 1832.0,
+        "latest_price": 2.03,
+        "unrealized_pnl": -208.00000000000017,
+        "unrealized_pnl_pct": -0.1135371179039302,
+        "held_days": 7,
+        "peak_since_entry": 2.29,
+        "armed_state": "",
+        "model_exit_state": "",
+        "note": ""
+      }
+    ],
+    "trade_journal": [],
+    "financial_signals": [
+      {
+        "signal_date": "2026-04-09",
+        "code": "002072",
+        "name": "凯瑞德",
+        "score": 0.636364,
+        "source_model": "delta_relweak_mainboard_le12_scorepos_d15daily_b25",
+        "ref_price": 7.55,
+        "suggested_pct": 100.0,
+        "status": "NEW",
+        "note": "from:financial_delta_feature_panel_live_h60_2019_2026_q5_s20.csv;signal_day:2026-04-09;mode:formal_aligned_relweak_mainboard_le12_scorepos;trim_top:0.25;trim_bottom:0.00;dyn:0.40/4-6;universe:1"
+      }
+    ],
+    "financial_actual_trades": [
+      {
+        "trade_id": "actual_20260420_002072_BUY_192318",
+        "date": "2026-04-20",
+        "code": "002072",
+        "name": "凯瑞德",
+        "action": "BUY",
+        "fill_price": 7.53,
+        "shares": 1300.0,
+        "status": "filled",
+        "source_model": "delta_relweak_mainboard_le12_scorepos_d15daily_b25",
+        "note": "manual_actual_buy"
+      }
+    ],
+    "limitup_candidates": [
+      {
+        "trade_date": "2026-04-23",
+        "code": "002301",
+        "priority_rank": 1,
+        "shape_score": 8.0,
+        "priority_score": 4.722222222222222,
+        "entry_px_ref": 8.2,
+        "open_gap_pct": 2.511078286558366,
+        "amount_yi": 2.52947,
+        "buy_hint": "今天首板；仅shape_score>=7入池；明天若封2板后开板再回封才考虑参与"
+      },
+      {
+        "trade_date": "2026-04-23",
+        "code": "003022",
+        "priority_rank": 2,
+        "shape_score": 8.0,
+        "priority_score": 3.790909090909091,
+        "entry_px_ref": 27.25,
+        "open_gap_pct": 2.39786856127886,
+        "amount_yi": 3.89658,
+        "buy_hint": "今天首板；仅shape_score>=7入池；明天若封2板后开板再回封才考虑参与"
+      },
+      {
+        "trade_date": "2026-04-23",
+        "code": "002793",
+        "priority_rank": 3,
+        "shape_score": 8.0,
+        "priority_score": 3.6818181818181817,
+        "entry_px_ref": 6.19,
+        "open_gap_pct": 1.953125,
+        "amount_yi": 5.02293,
+        "buy_hint": "今天首板；仅shape_score>=7入池；明天若封2板后开板再回封才考虑参与"
+      },
+      {
+        "trade_date": "2026-04-23",
+        "code": "001314",
+        "priority_rank": 4,
+        "shape_score": 7.0,
+        "priority_score": 3.6666666666666665,
+        "entry_px_ref": 53.35,
+        "open_gap_pct": 8.641415286913112,
+        "amount_yi": 0.99845,
+        "buy_hint": "今天首板；仅shape_score>=7入池；明天若封2板后开板再回封才考虑参与"
+      },
+      {
+        "trade_date": "2026-04-23",
+        "code": "601101",
+        "priority_rank": 5,
+        "shape_score": 8.0,
+        "priority_score": 3.642857142857143,
+        "entry_px_ref": 10.3,
+        "open_gap_pct": 5.052878965922436,
+        "amount_yi": 5.67605,
+        "buy_hint": "今天首板；仅shape_score>=7入池；明天若封2板后开板再回封才考虑参与"
+      },
+      {
+        "trade_date": "2026-04-23",
+        "code": "600986",
+        "priority_rank": 6,
+        "shape_score": 8.0,
+        "priority_score": 3.45,
+        "entry_px_ref": 13.34,
+        "open_gap_pct": 2.7198549410698103,
+        "amount_yi": 30.25537,
+        "buy_hint": "今天首板；仅shape_score>=7入池；明天若封2板后开板再回封才考虑参与"
+      },
+      {
+        "trade_date": "2026-04-23",
+        "code": "000925",
+        "priority_rank": 7,
+        "shape_score": 8.0,
+        "priority_score": 3.4444444444444446,
+        "entry_px_ref": 9.2,
+        "open_gap_pct": 4.210526315789487,
+        "amount_yi": 9.87208,
+        "buy_hint": "今天首板；仅shape_score>=7入池；明天若封2板后开板再回封才考虑参与"
+      },
+      {
+        "trade_date": "2026-04-23",
+        "code": "000537",
+        "priority_rank": 8,
+        "shape_score": 8.0,
+        "priority_score": 3.369047619047619,
+        "entry_px_ref": 12.82,
+        "open_gap_pct": 2.8328611898017053,
+        "amount_yi": 14.15796,
+        "buy_hint": "今天首板；仅shape_score>=7入池；明天若封2板后开板再回封才考虑参与"
+      },
+      {
+        "trade_date": "2026-04-23",
+        "code": "603198",
+        "priority_rank": 9,
+        "shape_score": 7.0,
+        "priority_score": 3.0,
+        "entry_px_ref": 42.92,
+        "open_gap_pct": 6.484352974344532,
+        "amount_yi": 1.70895,
+        "buy_hint": "今天首板；仅shape_score>=7入池；明天若封2板后开板再回封才考虑参与"
+      },
+      {
+        "trade_date": "2026-04-23",
+        "code": "002448",
+        "priority_rank": 10,
+        "shape_score": 7.0,
+        "priority_score": 2.625,
+        "entry_px_ref": 19.27,
+        "open_gap_pct": 6.654111738857504,
+        "amount_yi": 7.17721,
+        "buy_hint": "今天首板；仅shape_score>=7入池；明天若封2板后开板再回封才考虑参与"
+      },
+      {
+        "trade_date": "2026-04-23",
+        "code": "603308",
+        "priority_rank": 11,
+        "shape_score": 7.0,
+        "priority_score": 2.476923076923077,
+        "entry_px_ref": 91.3,
+        "open_gap_pct": 4.996686547382367,
+        "amount_yi": 4.13136,
+        "buy_hint": "今天首板；仅shape_score>=7入池；明天若封2板后开板再回封才考虑参与"
+      },
+      {
+        "trade_date": "2026-04-23",
+        "code": "601016",
+        "priority_rank": 12,
+        "shape_score": 7.0,
+        "priority_score": 1.9038461538461535,
+        "entry_px_ref": 4.93,
+        "open_gap_pct": 1.228501228501222,
+        "amount_yi": 86.22034,
+        "buy_hint": "今天首板；仅shape_score>=7入池；明天若封2板后开板再回封才考虑参与"
+      },
+      {
+        "trade_date": "2026-04-23",
+        "code": "600726",
+        "priority_rank": 13,
+        "shape_score": 7.0,
+        "priority_score": 1.7666666666666668,
+        "entry_px_ref": 5.8,
+        "open_gap_pct": 1.2526096033402825,
+        "amount_yi": 35.02379,
+        "buy_hint": "今天首板；仅shape_score>=7入池；明天若封2板后开板再回封才考虑参与"
+      }
+    ],
+    "limitup_model_trades": [
+      {
+        "signal_date": "2018-01-04 00:00:00",
+        "code": "sh601360",
+        "entry_px": 61.19,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-01-05 10:00:00",
+        "ret_net_pct": -4.24244157542081,
+        "pnl_amount": -2121.220787710401,
+        "nav_after": 97878.7792122896
+      },
+      {
+        "signal_date": "2018-01-11 00:00:00",
+        "code": "sz002235",
+        "entry_px": 13.56,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-01-12 10:00:00",
+        "ret_net_pct": 9.529498525073729,
+        "pnl_amount": 4764.749262536861,
+        "nav_after": 102643.52847482645
+      },
+      {
+        "signal_date": "2018-01-12 00:00:00",
+        "code": "sh603386",
+        "entry_px": 19.79,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-01-15 10:00:00",
+        "ret_net_pct": 5.61419909044972,
+        "pnl_amount": 2807.0995452248535,
+        "nav_after": 105450.62802005131
+      },
+      {
+        "signal_date": "2018-01-17 00:00:00",
+        "code": "sz000550",
+        "entry_px": 19.75,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-01-18 10:00:00",
+        "ret_net_pct": -0.44936708860758,
+        "pnl_amount": -224.6835443037853,
+        "nav_after": 105225.94447574753
+      },
+      {
+        "signal_date": "2018-01-18 00:00:00",
+        "code": "sz002863",
+        "entry_px": 14.92,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-01-19 10:00:00",
+        "ret_net_pct": 9.48659517426274,
+        "pnl_amount": 4743.297587131368,
+        "nav_after": 109969.2420628789
+      },
+      {
+        "signal_date": "2018-01-29 00:00:00",
+        "code": "sz002016",
+        "entry_px": 14.51,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-01-30 10:00:00",
+        "ret_net_pct": 9.493108201240531,
+        "pnl_amount": 4746.554100620269,
+        "nav_after": 114715.79616349917
+      },
+      {
+        "signal_date": "2018-02-08 00:00:00",
+        "code": "sh600313",
+        "entry_px": 3.33,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-02-09 10:00:00",
+        "ret_net_pct": -2.9024024024024,
+        "pnl_amount": -1451.2012012011983,
+        "nav_after": 113264.59496229797
+      },
+      {
+        "signal_date": "2018-02-13 00:00:00",
+        "code": "sz002903",
+        "entry_px": 34.43,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-02-14 10:00:00",
+        "ret_net_pct": 2.86915480685449,
+        "pnl_amount": 1434.57740342724,
+        "nav_after": 114699.17236572522
+      },
+      {
+        "signal_date": "2018-02-13 00:00:00",
+        "code": "sh603716",
+        "entry_px": 53.7,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-02-14 10:00:00",
+        "ret_net_pct": -3.85195530726257,
+        "pnl_amount": -1925.9776536312784,
+        "nav_after": 112773.19471209393
+      },
+      {
+        "signal_date": "2018-02-27 00:00:00",
+        "code": "sh600903",
+        "entry_px": 25.76,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-02-28 10:00:00",
+        "ret_net_pct": -0.5,
+        "pnl_amount": -250.0,
+        "nav_after": 112523.19471209393
+      },
+      {
+        "signal_date": "2018-03-01 00:00:00",
+        "code": "sz002454",
+        "entry_px": 13.18,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-03-02 10:00:00",
+        "ret_net_pct": -1.6380880121396,
+        "pnl_amount": -819.044006069802,
+        "nav_after": 111704.15070602413
+      },
+      {
+        "signal_date": "2018-03-02 00:00:00",
+        "code": "sz000410",
+        "entry_px": 11.56,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-03-05 10:00:00",
+        "ret_net_pct": 3.0467128027681696,
+        "pnl_amount": 1523.3564013840805,
+        "nav_after": 113227.50710740821
+      },
+      {
+        "signal_date": "2018-03-09 00:00:00",
+        "code": "sz002226",
+        "entry_px": 6.45,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-03-12 10:00:00",
+        "ret_net_pct": 9.57751937984495,
+        "pnl_amount": 4788.759689922474,
+        "nav_after": 118016.26679733068
+      },
+      {
+        "signal_date": "2018-03-09 00:00:00",
+        "code": "sz002883",
+        "entry_px": 57.13,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-03-12 10:00:00",
+        "ret_net_pct": -2.4954489760196,
+        "pnl_amount": -1247.7244880098006,
+        "nav_after": 116768.54230932088
+      },
+      {
+        "signal_date": "2018-03-19 00:00:00",
+        "code": "sz002921",
+        "entry_px": 36.3,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-03-20 10:00:00",
+        "ret_net_pct": 9.5,
+        "pnl_amount": 4750.0,
+        "nav_after": 121518.54230932088
+      },
+      {
+        "signal_date": "2018-03-20 00:00:00",
+        "code": "sh600113",
+        "entry_px": 11.09,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-03-21 10:00:00",
+        "ret_net_pct": 9.50901713255184,
+        "pnl_amount": 4754.508566275923,
+        "nav_after": 126273.0508755968
+      },
+      {
+        "signal_date": "2018-03-21 00:00:00",
+        "code": "sz002907",
+        "entry_px": 40.91,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-03-22 10:00:00",
+        "ret_net_pct": -2.6999511121975,
+        "pnl_amount": -1349.975556098747,
+        "nav_after": 124923.07531949805
+      },
+      {
+        "signal_date": "2018-03-22 00:00:00",
+        "code": "sh600689",
+        "entry_px": 12.43,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-03-23 10:00:00",
+        "ret_net_pct": 9.47586484312147,
+        "pnl_amount": 4737.932421560734,
+        "nav_after": 129661.0077410588
+      },
+      {
+        "signal_date": "2018-03-23 00:00:00",
+        "code": "sh600800",
+        "entry_px": 6.49,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-03-26 10:00:00",
+        "ret_net_pct": -8.666409861325109,
+        "pnl_amount": -4333.204930662563,
+        "nav_after": 125327.80281039623
+      },
+      {
+        "signal_date": "2018-03-26 00:00:00",
+        "code": "sh603336",
+        "entry_px": 24.82,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-03-27 10:00:00",
+        "ret_net_pct": 5.825543916196611,
+        "pnl_amount": 2912.771958098303,
+        "nav_after": 128240.57476849452
+      },
+      {
+        "signal_date": "2018-03-29 00:00:00",
+        "code": "sh603067",
+        "entry_px": 13.15,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-03-30 10:00:00",
+        "ret_net_pct": 3.22623574144486,
+        "pnl_amount": 1613.1178707224171,
+        "nav_after": 129853.69263921696
+      },
+      {
+        "signal_date": "2018-03-30 00:00:00",
+        "code": "sh603283",
+        "entry_px": 31.69,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-04-02 10:00:00",
+        "ret_net_pct": -0.15288734616598,
+        "pnl_amount": -76.44367308299115,
+        "nav_after": 129777.24896613395
+      },
+      {
+        "signal_date": "2018-04-02 00:00:00",
+        "code": "sz002213",
+        "entry_px": 14.98,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-04-03 10:00:00",
+        "ret_net_pct": 3.97263017356476,
+        "pnl_amount": 1986.3150867823788,
+        "nav_after": 131763.56405291634
+      },
+      {
+        "signal_date": "2018-04-03 00:00:00",
+        "code": "sz002076",
+        "entry_px": 6.14,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-04-04 10:00:00",
+        "ret_net_pct": 1.4543973941368,
+        "pnl_amount": 727.1986970684011,
+        "nav_after": 132490.76274998474
+      },
+      {
+        "signal_date": "2018-04-04 00:00:00",
+        "code": "sh603080",
+        "entry_px": 37.04,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-04-09 10:00:00",
+        "ret_net_pct": 9.48920086393089,
+        "pnl_amount": 4744.6004319654385,
+        "nav_after": 137235.36318195018
+      },
+      {
+        "signal_date": "2018-04-09 00:00:00",
+        "code": "sz002886",
+        "entry_px": 38.73,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-04-10 10:00:00",
+        "ret_net_pct": 9.49225406661503,
+        "pnl_amount": 4746.127033307523,
+        "nav_after": 141981.49021525768
+      },
+      {
+        "signal_date": "2018-04-11 00:00:00",
+        "code": "sz002873",
+        "entry_px": 58.56,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-04-12 10:00:00",
+        "ret_net_pct": 2.47131147540983,
+        "pnl_amount": 1235.6557377049103,
+        "nav_after": 143217.1459529626
+      },
+      {
+        "signal_date": "2018-04-11 00:00:00",
+        "code": "sh601858",
+        "entry_px": 11.3,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-04-12 10:00:00",
+        "ret_net_pct": 9.49999999999998,
+        "pnl_amount": 4749.999999999993,
+        "nav_after": 147967.1459529626
+      },
+      {
+        "signal_date": "2018-04-17 00:00:00",
+        "code": "sh603729",
+        "entry_px": 61.97,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-04-18 10:00:00",
+        "ret_net_pct": -7.39043085363885,
+        "pnl_amount": -3695.215426819428,
+        "nav_after": 144271.93052614317
+      },
+      {
+        "signal_date": "2018-04-25 00:00:00",
+        "code": "sz002134",
+        "entry_px": 9.28,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-04-26 10:00:00",
+        "ret_net_pct": 9.52155172413794,
+        "pnl_amount": 4760.7758620689565,
+        "nav_after": 149032.70638821213
+      },
+      {
+        "signal_date": "2018-04-25 00:00:00",
+        "code": "sh603387",
+        "entry_px": 74.81,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-04-26 10:00:00",
+        "ret_net_pct": -1.4624381767143402,
+        "pnl_amount": -731.2190883571748,
+        "nav_after": 148301.48729985495
+      },
+      {
+        "signal_date": "2018-04-27 00:00:00",
+        "code": "sh600476",
+        "entry_px": 18.94,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-05-02 10:00:00",
+        "ret_net_pct": -5.62143611404436,
+        "pnl_amount": -2810.7180570221826,
+        "nav_after": 145490.7692428328
+      },
+      {
+        "signal_date": "2018-05-04 00:00:00",
+        "code": "sz002889",
+        "entry_px": 33.28,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-05-07 10:00:00",
+        "ret_net_pct": 3.5264423076922897,
+        "pnl_amount": 1763.2211538461415,
+        "nav_after": 147253.9903966789
+      },
+      {
+        "signal_date": "2018-05-08 00:00:00",
+        "code": "sh603928",
+        "entry_px": 17.68,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-05-09 10:00:00",
+        "ret_net_pct": 7.418552036199079,
+        "pnl_amount": 3709.276018099539,
+        "nav_after": 150963.26641477845
+      },
+      {
+        "signal_date": "2018-05-09 00:00:00",
+        "code": "sh600579",
+        "entry_px": 11.1,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-05-10 10:00:00",
+        "ret_net_pct": 1.75225225225225,
+        "pnl_amount": 876.126126126117,
+        "nav_after": 151839.39254090458
+      },
+      {
+        "signal_date": "2018-05-16 00:00:00",
+        "code": "sh603036",
+        "entry_px": 18.71,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-05-17 10:00:00",
+        "ret_net_pct": 3.8292357028326993,
+        "pnl_amount": 1914.6178514163475,
+        "nav_after": 153754.01039232092
+      },
+      {
+        "signal_date": "2018-05-21 00:00:00",
+        "code": "sz002828",
+        "entry_px": 30.58,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-05-22 10:00:00",
+        "ret_net_pct": 9.50654022236757,
+        "pnl_amount": 4753.270111183781,
+        "nav_after": 158507.2805035047
+      },
+      {
+        "signal_date": "2018-05-25 00:00:00",
+        "code": "sh603069",
+        "entry_px": 12.56,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-05-28 10:00:00",
+        "ret_net_pct": -4.24203821656051,
+        "pnl_amount": -2121.0191082802558,
+        "nav_after": 156386.26139522443
+      },
+      {
+        "signal_date": "2018-05-25 00:00:00",
+        "code": "sz002725",
+        "entry_px": 11.94,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-05-28 10:00:00",
+        "ret_net_pct": -1.17001675041875,
+        "pnl_amount": -585.0083752093706,
+        "nav_after": 155801.25302001508
+      },
+      {
+        "signal_date": "2018-05-29 00:00:00",
+        "code": "sh603033",
+        "entry_px": 22.63,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-05-30 10:00:00",
+        "ret_net_pct": -9.4703932832523,
+        "pnl_amount": -4735.196641626149,
+        "nav_after": 151066.05637838892
+      },
+      {
+        "signal_date": "2018-05-29 00:00:00",
+        "code": "sz002857",
+        "entry_px": 24.21,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-05-30 10:00:00",
+        "ret_net_pct": -5.08488228004956,
+        "pnl_amount": -2542.4411400247845,
+        "nav_after": 148523.61523836415
+      },
+      {
+        "signal_date": "2018-05-31 00:00:00",
+        "code": "sz002921",
+        "entry_px": 47.8,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-06-01 10:00:00",
+        "ret_net_pct": 9.5,
+        "pnl_amount": 4750.0,
+        "nav_after": 153273.61523836415
+      },
+      {
+        "signal_date": "2018-06-04 00:00:00",
+        "code": "sh603577",
+        "entry_px": 16.29,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-06-05 10:00:00",
+        "ret_net_pct": -4.12185389809699,
+        "pnl_amount": -2060.9269490484876,
+        "nav_after": 151212.68828931564
+      },
+      {
+        "signal_date": "2018-06-05 00:00:00",
+        "code": "sz002290",
+        "entry_px": 14.38,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-06-06 10:00:00",
+        "ret_net_pct": -4.04659248956885,
+        "pnl_amount": -2023.296244784433,
+        "nav_after": 149189.3920445312
+      },
+      {
+        "signal_date": "2018-06-06 00:00:00",
+        "code": "sh603535",
+        "entry_px": 32.59,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-06-07 10:00:00",
+        "ret_net_pct": -7.373274010432651,
+        "pnl_amount": -3686.6370052163184,
+        "nav_after": 145502.7550393149
+      },
+      {
+        "signal_date": "2018-06-12 00:00:00",
+        "code": "sz000019",
+        "entry_px": 10.88,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-06-13 10:00:00",
+        "ret_net_pct": 9.51838235294116,
+        "pnl_amount": 4759.19117647058,
+        "nav_after": 150261.9462157855
+      },
+      {
+        "signal_date": "2018-06-13 00:00:00",
+        "code": "sz002829",
+        "entry_px": 28.99,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-06-14 10:00:00",
+        "ret_net_pct": -3.77699206622973,
+        "pnl_amount": -1888.4960331148686,
+        "nav_after": 148373.4501826706
+      },
+      {
+        "signal_date": "2018-06-20 00:00:00",
+        "code": "sz002909",
+        "entry_px": 17.73,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-06-21 10:00:00",
+        "ret_net_pct": 9.48307952622672,
+        "pnl_amount": 4741.539763113353,
+        "nav_after": 153114.98994578398
+      },
+      {
+        "signal_date": "2018-06-21 00:00:00",
+        "code": "sz002218",
+        "entry_px": 2.99,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-06-22 10:00:00",
+        "ret_net_pct": 3.1789297658862803,
+        "pnl_amount": 1589.464882943139,
+        "nav_after": 154704.45482872712
+      },
+      {
+        "signal_date": "2018-06-25 00:00:00",
+        "code": "sh600679",
+        "entry_px": 11.04,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-06-26 10:00:00",
+        "ret_net_pct": 3.6666666666666696,
+        "pnl_amount": 1833.3333333333285,
+        "nav_after": 156537.78816206043
+      },
+      {
+        "signal_date": "2018-06-25 00:00:00",
+        "code": "sz000812",
+        "entry_px": 3.67,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-06-26 10:00:00",
+        "ret_net_pct": -5.13215258855586,
+        "pnl_amount": -2566.076294277933,
+        "nav_after": 153971.7118677825
+      },
+      {
+        "signal_date": "2018-06-27 00:00:00",
+        "code": "sz000555",
+        "entry_px": 11.86,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-06-28 10:00:00",
+        "ret_net_pct": 7.341483979763909,
+        "pnl_amount": 3670.741989881957,
+        "nav_after": 157642.45385766446
+      },
+      {
+        "signal_date": "2018-06-27 00:00:00",
+        "code": "sz000868",
+        "entry_px": 5.27,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-06-28 10:00:00",
+        "ret_net_pct": 3.29506641366225,
+        "pnl_amount": 1647.5332068311182,
+        "nav_after": 159289.98706449557
+      },
+      {
+        "signal_date": "2018-06-29 00:00:00",
+        "code": "sz000678",
+        "entry_px": 5.7,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-07-02 10:00:00",
+        "ret_net_pct": 9.49999999999998,
+        "pnl_amount": 4749.999999999993,
+        "nav_after": 164039.98706449557
+      },
+      {
+        "signal_date": "2018-07-04 00:00:00",
+        "code": "sz000802",
+        "entry_px": 13.33,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-07-05 10:00:00",
+        "ret_net_pct": 4.60127531882971,
+        "pnl_amount": 2300.6376594148533,
+        "nav_after": 166340.6247239104
+      },
+      {
+        "signal_date": "2018-07-05 00:00:00",
+        "code": "sz000791",
+        "entry_px": 5.37,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-07-06 10:00:00",
+        "ret_net_pct": -5.527932960893859,
+        "pnl_amount": -2763.9664804469285,
+        "nav_after": 163576.6582434635
+      },
+      {
+        "signal_date": "2018-07-06 00:00:00",
+        "code": "sz002866",
+        "entry_px": 31.28,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-07-09 10:00:00",
+        "ret_net_pct": 3.81585677749362,
+        "pnl_amount": 1907.9283887468046,
+        "nav_after": 165484.5866322103
+      },
+      {
+        "signal_date": "2018-07-10 00:00:00",
+        "code": "sh603229",
+        "entry_px": 18.35,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-07-11 10:00:00",
+        "ret_net_pct": -4.151226158038149,
+        "pnl_amount": -2075.6130790190728,
+        "nav_after": 163408.97355319123
+      },
+      {
+        "signal_date": "2018-07-13 00:00:00",
+        "code": "sz002662",
+        "entry_px": 4.18,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-07-16 10:00:00",
+        "ret_net_pct": 9.547846889952153,
+        "pnl_amount": 4773.923444976077,
+        "nav_after": 168158.97355319123
+      },
+      {
+        "signal_date": "2018-07-13 00:00:00",
+        "code": "sz002897",
+        "entry_px": 26.2,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-07-16 10:00:00",
+        "ret_net_pct": 9.5,
+        "pnl_amount": 4750.0,
+        "nav_after": 172932.8969981673
+      },
+      {
+        "signal_date": "2018-07-17 00:00:00",
+        "code": "sz000063",
+        "entry_px": 17.06,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-07-18 10:00:00",
+        "ret_net_pct": -2.72743259085579,
+        "pnl_amount": -1363.7162954278974,
+        "nav_after": 171569.1807027394
+      },
+      {
+        "signal_date": "2018-07-20 00:00:00",
+        "code": "sz002375",
+        "entry_px": 6.18,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-07-23 10:00:00",
+        "ret_net_pct": -1.95631067961164,
+        "pnl_amount": -978.1553398058168,
+        "nav_after": 170591.02536293358
+      },
+      {
+        "signal_date": "2018-07-23 00:00:00",
+        "code": "sh600734",
+        "entry_px": 8.06,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-07-24 10:00:00",
+        "ret_net_pct": -0.00372208436727,
+        "pnl_amount": -1.8610421836347086,
+        "nav_after": 170589.16432074993
+      },
+      {
+        "signal_date": "2018-07-24 00:00:00",
+        "code": "sz002778",
+        "entry_px": 23.35,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-07-25 10:00:00",
+        "ret_net_pct": -0.71413276231263,
+        "pnl_amount": -357.0663811563136,
+        "nav_after": 170232.09793959363
+      },
+      {
+        "signal_date": "2018-07-25 00:00:00",
+        "code": "sh600812",
+        "entry_px": 5.47,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-07-26 10:00:00",
+        "ret_net_pct": 7.5438756855576,
+        "pnl_amount": 3771.9378427788033,
+        "nav_after": 174004.03578237243
+      },
+      {
+        "signal_date": "2018-07-26 00:00:00",
+        "code": "sh600712",
+        "entry_px": 5.18,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-07-27 10:00:00",
+        "ret_net_pct": 9.53861003861004,
+        "pnl_amount": 4769.305019305015,
+        "nav_after": 178773.34080167743
+      },
+      {
+        "signal_date": "2018-07-30 00:00:00",
+        "code": "sh600698",
+        "entry_px": 6.15,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-07-31 10:00:00",
+        "ret_net_pct": -5.21544715447154,
+        "pnl_amount": -2607.723577235767,
+        "nav_after": 176165.61722444167
+      },
+      {
+        "signal_date": "2018-07-30 00:00:00",
+        "code": "sz000557",
+        "entry_px": 4.22,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-07-31 10:00:00",
+        "ret_net_pct": -2.39573459715639,
+        "pnl_amount": -1197.8672985781886,
+        "nav_after": 174967.7499258635
+      },
+      {
+        "signal_date": "2018-08-01 00:00:00",
+        "code": "sh603183",
+        "entry_px": 29.89,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-08-02 10:00:00",
+        "ret_net_pct": -4.180160588825689,
+        "pnl_amount": -2090.0802944128372,
+        "nav_after": 172877.66963145067
+      },
+      {
+        "signal_date": "2018-08-02 00:00:00",
+        "code": "sh600278",
+        "entry_px": 10.85,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-08-03 10:00:00",
+        "ret_net_pct": 4.569124423963141,
+        "pnl_amount": 2284.562211981567,
+        "nav_after": 175162.23184343224
+      },
+      {
+        "signal_date": "2018-08-06 00:00:00",
+        "code": "sh600722",
+        "entry_px": 5.7,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-08-07 10:00:00",
+        "ret_net_pct": 9.49999999999998,
+        "pnl_amount": 4749.999999999993,
+        "nav_after": 179912.2318434322
+      },
+      {
+        "signal_date": "2018-08-07 00:00:00",
+        "code": "sh600378",
+        "entry_px": 11.09,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-08-08 10:00:00",
+        "ret_net_pct": -0.13931469792605,
+        "pnl_amount": -69.65734896302456,
+        "nav_after": 179842.57449446918
+      },
+      {
+        "signal_date": "2018-08-08 00:00:00",
+        "code": "sh600470",
+        "entry_px": 4.66,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-08-09 10:00:00",
+        "ret_net_pct": 7.22532188841199,
+        "pnl_amount": 3612.6609442059926,
+        "nav_after": 183455.23543867518
+      },
+      {
+        "signal_date": "2018-08-09 00:00:00",
+        "code": "sz002315",
+        "entry_px": 15.43,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-08-10 10:00:00",
+        "ret_net_pct": 9.48055735580039,
+        "pnl_amount": 4740.278677900191,
+        "nav_after": 188195.51411657536
+      },
+      {
+        "signal_date": "2018-08-10 00:00:00",
+        "code": "sz000635",
+        "entry_px": 13.13,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-08-13 10:00:00",
+        "ret_net_pct": -2.55635948210206,
+        "pnl_amount": -1278.1797410510262,
+        "nav_after": 186917.33437552434
+      },
+      {
+        "signal_date": "2018-08-14 00:00:00",
+        "code": "sz002331",
+        "entry_px": 8.81,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-08-15 10:00:00",
+        "ret_net_pct": -4.92678774120318,
+        "pnl_amount": -2463.3938706015906,
+        "nav_after": 184453.94050492276
+      },
+      {
+        "signal_date": "2018-08-15 00:00:00",
+        "code": "sz000663",
+        "entry_px": 8.45,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-08-16 10:00:00",
+        "ret_net_pct": -3.81360946745561,
+        "pnl_amount": -1906.8047337277967,
+        "nav_after": 182547.13577119494
+      },
+      {
+        "signal_date": "2018-08-23 00:00:00",
+        "code": "sz002109",
+        "entry_px": 4.74,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-08-24 10:00:00",
+        "ret_net_pct": -3.24261603375527,
+        "pnl_amount": -1621.3080168776287,
+        "nav_after": 180925.82775431732
+      },
+      {
+        "signal_date": "2018-08-27 00:00:00",
+        "code": "sz000779",
+        "entry_px": 13.92,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-08-28 10:00:00",
+        "ret_net_pct": -2.08045977011495,
+        "pnl_amount": -1040.2298850574734,
+        "nav_after": 179885.59786925983
+      },
+      {
+        "signal_date": "2018-08-27 00:00:00",
+        "code": "sz002800",
+        "entry_px": 22.06,
+        "stake_amount": 50000.0,
+        "exit_dt": "2018-08-28 10:00:00",
+        "ret_net_pct": 7.25158658204895,
+        "pnl_amount": 3625.793291024471,
+        "nav_after": 183511.3911602843
+      }
+    ],
+    "limitup_model_open_trades": [
+      {
+        "strategy_label": "live_follow__exec_t1_10:00:00__nohold4|top1_fixed2000_cost0.5",
+        "signal_date": "2026-04-22",
+        "code": "601061",
+        "entry_dt_plan": "2026-04-23 09:31:00",
+        "entry_px_plan": 15.71,
+        "priority_rank": 1,
+        "stake_amount": 2000.0,
+        "status": "OPEN_PLAN",
+        "note": "按正式口径进入次日待执行模拟（今天首板、明天观察2板回封；前排买不到会顺延；若成交则统一在下一个交易日 10:00:00 卖）"
+      },
+      {
+        "strategy_label": "live_follow__exec_t1_10:00:00__nohold4|top1_fixed2000_cost0.5",
+        "signal_date": "2026-04-22",
+        "code": "002360",
+        "entry_dt_plan": "2026-04-23 09:31:00",
+        "entry_px_plan": 7.61,
+        "priority_rank": 2,
+        "stake_amount": 2000.0,
+        "status": "SKIP_TOPN",
+        "note": "候选有效，但当前只作为顺延备选"
+      },
+      {
+        "strategy_label": "live_follow__exec_t1_10:00:00__nohold4|top1_fixed2000_cost0.5",
+        "signal_date": "2026-04-22",
+        "code": "002194",
+        "entry_dt_plan": "2026-04-23 09:31:00",
+        "entry_px_plan": 13.05,
+        "priority_rank": 3,
+        "stake_amount": 2000.0,
+        "status": "SKIP_TOPN",
+        "note": "候选有效，但当前只作为顺延备选"
+      },
+      {
+        "strategy_label": "live_follow__exec_t1_10:00:00__nohold4|top1_fixed2000_cost0.5",
+        "signal_date": "2026-04-22",
+        "code": "002588",
+        "entry_dt_plan": "2026-04-23 09:31:00",
+        "entry_px_plan": 12.85,
+        "priority_rank": 4,
+        "stake_amount": 2000.0,
+        "status": "SKIP_TOPN",
+        "note": "候选有效，但当前只作为顺延备选"
+      },
+      {
+        "strategy_label": "live_follow__exec_t1_10:00:00__nohold4|top1_fixed2000_cost0.5",
+        "signal_date": "2026-04-22",
+        "code": "002256",
+        "entry_dt_plan": "2026-04-23 09:31:00",
+        "entry_px_plan": 4.96,
+        "priority_rank": 5,
+        "stake_amount": 2000.0,
+        "status": "SKIP_TOPN",
+        "note": "候选有效，但当前只作为顺延备选"
+      },
+      {
+        "strategy_label": "live_follow__exec_t1_10:00:00__nohold4|top1_fixed2000_cost0.5",
+        "signal_date": "2026-04-22",
+        "code": "603606",
+        "entry_dt_plan": "2026-04-23 09:31:00",
+        "entry_px_plan": 73.92,
+        "priority_rank": 6,
+        "stake_amount": 2000.0,
+        "status": "SKIP_TOPN",
+        "note": "候选有效，但当前只作为顺延备选"
+      },
+      {
+        "strategy_label": "live_follow__exec_t1_10:00:00__nohold4|top1_fixed2000_cost0.5",
+        "signal_date": "2026-04-22",
+        "code": "605376",
+        "entry_dt_plan": "2026-04-23 09:31:00",
+        "entry_px_plan": 129.43,
+        "priority_rank": 7,
+        "stake_amount": 2000.0,
+        "status": "SKIP_TOPN",
+        "note": "候选有效，但当前只作为顺延备选"
+      },
+      {
+        "strategy_label": "live_follow__exec_t1_10:00:00__nohold4|top1_fixed2000_cost0.5",
+        "signal_date": "2026-04-22",
+        "code": "600815",
+        "entry_dt_plan": "2026-04-23 09:31:00",
+        "entry_px_plan": 4.97,
+        "priority_rank": 8,
+        "stake_amount": 2000.0,
+        "status": "SKIP_TOPN",
+        "note": "候选有效，但当前只作为顺延备选"
+      },
+      {
+        "strategy_label": "live_follow__exec_t1_10:00:00__nohold4|top1_fixed2000_cost0.5",
+        "signal_date": "2026-04-22",
+        "code": "000062",
+        "entry_dt_plan": "2026-04-23 09:31:00",
+        "entry_px_plan": 35.9,
+        "priority_rank": 9,
+        "stake_amount": 2000.0,
+        "status": "SKIP_TOPN",
+        "note": "候选有效，但当前只作为顺延备选"
+      },
+      {
+        "strategy_label": "live_follow__exec_t1_10:00:00__nohold4|top1_fixed2000_cost0.5",
+        "signal_date": "2026-04-22",
+        "code": "000811",
+        "entry_dt_plan": "2026-04-23 09:31:00",
+        "entry_px_plan": 24.65,
+        "priority_rank": 10,
+        "stake_amount": 2000.0,
+        "status": "SKIP_TOPN",
+        "note": "候选有效，但当前只作为顺延备选"
+      },
+      {
+        "strategy_label": "live_follow__exec_t1_10:00:00__nohold4|top1_fixed2000_cost0.5",
+        "signal_date": "2026-04-22",
+        "code": "603906",
+        "entry_dt_plan": "2026-04-23 09:31:00",
+        "entry_px_plan": 31.48,
+        "priority_rank": 11,
+        "stake_amount": 2000.0,
+        "status": "SKIP_TOPN",
+        "note": "候选有效，但当前只作为顺延备选"
+      },
+      {
+        "strategy_label": "live_follow__exec_t1_10:00:00__nohold4|top1_fixed2000_cost0.5",
+        "signal_date": "2026-04-22",
+        "code": "002384",
+        "entry_dt_plan": "2026-04-23 09:31:00",
+        "entry_px_plan": 204.97,
+        "priority_rank": 12,
+        "stake_amount": 2000.0,
+        "status": "SKIP_TOPN",
+        "note": "候选有效，但当前只作为顺延备选"
+      },
+      {
+        "strategy_label": "live_follow__exec_t1_10:00:00__nohold4|top1_fixed2000_cost0.5",
+        "signal_date": "2026-04-21",
+        "code": "600736",
+        "entry_dt_plan": "2026-04-22 09:32:00",
+        "entry_px_plan": 7.61,
+        "priority_rank": 7,
+        "stake_amount": 2000.0,
+        "status": "OPEN_HELD_WAIT_T1",
+        "note": "已成交，等待 T+1 涨停/ 10:00:00 卖出"
+      }
+    ],
+    "limitup_actual_trades": [
+      {
+        "signal_date": "2026-04-15",
+        "code": "002124",
+        "entry_date": "2026-04-15",
+        "entry_price": 3.082,
+        "exit_date": "2026-04-16",
+        "exit_price": 2.86,
+        "shares": 2300.0,
+        "fees": 0.0,
+        "taxes": 0.0,
+        "ret_gross_pct": -7.203114860480209,
+        "ret_net_pct": -7.203114860480198,
+        "note": ""
+      },
+      {
+        "signal_date": "2026-04-15",
+        "code": "002980",
+        "entry_date": "2026-04-15",
+        "entry_price": 70.6,
+        "exit_date": "2026-04-16",
+        "exit_price": 65.17,
+        "shares": 100.0,
+        "fees": 5.0,
+        "taxes": 0.0,
+        "ret_gross_pct": -7.691218130311606,
+        "ret_net_pct": -7.762039660056641,
+        "note": ""
+      },
+      {
+        "signal_date": "2026-04-15",
+        "code": "600152",
+        "entry_date": "2026-04-15",
+        "entry_price": 12.957,
+        "exit_date": "2026-04-15",
+        "exit_price": 12.3,
+        "shares": 300.0,
+        "fees": 5.04,
+        "taxes": 0.0,
+        "ret_gross_pct": -5.070618198657096,
+        "ret_net_pct": -5.200277842093081,
+        "note": ""
+      },
+      {
+        "signal_date": "2026-04-16",
+        "code": "002990",
+        "entry_date": "2026-04-16",
+        "entry_price": 45.71,
+        "exit_date": "2026-04-20",
+        "exit_price": 52.85,
+        "shares": 100.0,
+        "fees": 5.0,
+        "taxes": 0.0,
+        "ret_gross_pct": 15.620214395099552,
+        "ret_net_pct": 15.510829140231897,
+        "note": ""
+      },
+      {
+        "signal_date": "2026-04-16",
+        "code": "600664",
+        "entry_date": "2026-04-16",
+        "entry_price": 4.88,
+        "exit_date": "2026-04-17",
+        "exit_price": 4.18,
+        "shares": 100.0,
+        "fees": 5.0,
+        "taxes": 0.0,
+        "ret_gross_pct": -14.344262295081966,
+        "ret_net_pct": -15.368852459016392,
+        "note": ""
+      },
+      {
+        "signal_date": "2026-04-17",
+        "code": "600683",
+        "entry_date": "2026-04-17",
+        "entry_price": 11.99,
+        "exit_date": "2026-04-20",
+        "exit_price": 11.85,
+        "shares": 100.0,
+        "fees": 0.0,
+        "taxes": 0.0,
+        "ret_gross_pct": -1.1676396997498006,
+        "ret_net_pct": -1.1676396997497895,
+        "note": ""
+      },
+      {
+        "signal_date": "2026-04-20",
+        "code": "600156",
+        "entry_date": "2026-04-20",
+        "entry_price": 10.19,
+        "exit_date": "2026-04-21",
+        "exit_price": 11.21,
+        "shares": 100.0,
+        "fees": 0.0,
+        "taxes": 0.0,
+        "ret_gross_pct": 10.009813542688928,
+        "ret_net_pct": 10.009813542688908,
+        "note": ""
+      },
+      {
+        "signal_date": "2026-04-22",
+        "code": "600103",
+        "entry_date": "2026-04-22",
+        "entry_price": 5.72,
+        "exit_date": "2026-04-23",
+        "exit_price": 5.54,
+        "shares": 100.0,
+        "fees": 0.0,
+        "taxes": 0.0,
+        "ret_gross_pct": -3.1468531468531458,
+        "ret_net_pct": -3.1468531468531458,
+        "note": ""
+      }
+    ],
+    "limitup_yearly": [
+      {
+        "year": 2018,
+        "trades": 118,
+        "cum_return_pct": 631.2533098664944,
+        "avg_trade_pct": 1.8672487181735353
+      },
+      {
+        "year": 2019,
+        "trades": 148,
+        "cum_return_pct": 870.534915821105,
+        "avg_trade_pct": 1.749439502945081
+      },
+      {
+        "year": 2020,
+        "trades": 145,
+        "cum_return_pct": 557.1926795706789,
+        "avg_trade_pct": 1.506297535942376
+      },
+      {
+        "year": 2021,
+        "trades": 167,
+        "cum_return_pct": 3011.824415616282,
+        "avg_trade_pct": 2.2453204372896187
+      },
+      {
+        "year": 2022,
+        "trades": 178,
+        "cum_return_pct": 852.0325734845433,
+        "avg_trade_pct": 1.4569847065046468
+      },
+      {
+        "year": 2023,
+        "trades": 124,
+        "cum_return_pct": 941.0639713962897,
+        "avg_trade_pct": 2.09970027508435
+      },
+      {
+        "year": 2024,
+        "trades": 159,
+        "cum_return_pct": 720.5776194504704,
+        "avg_trade_pct": 1.5425812477552008
+      },
+      {
+        "year": 2025,
+        "trades": 172,
+        "cum_return_pct": 3242.8466653360674,
+        "avg_trade_pct": 2.2704084007193908
+      },
+      {
+        "year": 2026,
+        "trades": 37,
+        "cum_return_pct": 72.68032415644853,
+        "avg_trade_pct": 1.649820316039512
+      }
+    ]
+  }
+}
